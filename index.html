@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>FC Barcelona - Oficjalna Strona </title>
+ <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/2020px-FC_Barcelona_%28crest%29.svg.png">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div id="loadingOverlay" class="loading-overlay">
+   <div class="spinner-border" role="status">
+     <span class="visually-hidden">Ładowanie...</span>
+   </div>
+ </div>
+ <nav class="navbar navbar-expand-lg navbar-dark">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#">FC Barcelona</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+             aria-controls="navbarNav" aria-expanded="false" aria-label="Przełącz nawigację">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ms-auto">
+         <li class="nav-item"><a class="nav-link active" href="#">Strona główna</a></li>
+         <li class="nav-item"><a class="nav-link" href="#o-druzynie">O drużynie</a></li>
+         <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+         <li class="nav-item"><a class="nav-link" href="#sklep">Sklep</a></li>
+         <li class="nav-item"><a class="nav-link" href="#wyniki">Wyniki</a></li>
+         <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+ <section class="hero-section text-center">
+   <div class="container">
+     <h1>Witaj na oficjalnej stronie FC Barcelona </h1>
+     <p class="lead">Jeden z najlepszych klubów piłkarskich na świecie — zapraszamy kibiców!</p>
+   </div>
+ </section>
+ <section id="o-druzynie" class="container py-5">
+   <div class="row align-items-center">
+     <div class="col-md-6">
+       <h2>O FC Barcelona</h2>
+       <p>FC Barcelona, znana również jako Barça, to hiszpański klub piłkarski założony w 1899 roku. Klub zdobył wiele tytułów krajowych i międzynarodowych.</p>
+       <p>Słynie z unikalnego stylu gry — „tiki-taka”. Siedziba: Barcelona. Stadion: Camp Nou.</p>
+     </div>
+     <div class="col-md-6">
+       <img src="https://images.pexels.com/photos/27348423/pexels-photo-27348423.jpeg?auto=compress&cs=tinysrgb&h=600&w=900"
+            class="img-fluid rounded" alt="Wnętrze stadionu Camp Nou">
+     </div>
+   </div>
+ </section>
+ <section id="galeria" class="container py-5">
+   <h2 class="text-center">Galeria</h2>
+   <div class="row gy-4">
+     <div class="col-md-4">
+       <div class="card">
+         <img src="https://images.pexels.com/photos/27348423/pexels-photo-27348423.jpeg?auto=compress&cs=tinysrgb&h=600&w=900"
+              class="card-img-top" alt="Mecz na Camp Nou">
+         <div class="card-body">
+           <h5 class="card-title">Mecz na stadionie</h5>
+           <p class="card-text">Scena z meczu i publiczność.</p>
+           <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#imageModal1">Zobacz więcej</button>
+         </div>
+       </div>
+     </div>
+     <div class="modal fade" id="imageModal1" tabindex="-1" aria-hidden="true">
+       <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title">Mecz na stadionie</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+           </div>
+           <div class="modal-body">
+             <img src="https://images.pexels.com/photos/27348423/pexels-photo-27348423.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400"
+                  class="img-fluid" alt="Mecz - powiększenie">
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-md-4">
+       <div class="card">
+         <img src="https://images.pexels.com/photos/27348407/pexels-photo-27348407.jpeg?auto=compress&cs=tinysrgb&h=600&w=900"
+              class="card-img-top" alt="Camp Nou - widok">
+         <div class="card-body">
+           <h5 class="card-title">Camp Nou - widok</h5>
+           <p class="card-text">Panoramiczny widok trybun i murawy.</p>
+           <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#imageModal2">Zobacz więcej</button>
+         </div>
+       </div>
+     </div>
+     <div class="modal fade" id="imageModal2" tabindex="-1" aria-hidden="true">
+       <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title">Camp Nou - widok</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+           </div>
+           <div class="modal-body">
+             <img src="https://images.pexels.com/photos/27348407/pexels-photo-27348407.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400"
+                  class="img-fluid" alt="Camp Nou - powiększenie">
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-md-4">
+       <div class="card">
+         <img src="https://static01.nyt.com/athletic/uploads/wp/2024/09/27053444/barcelona-fans-scaled.jpg?width=1200&height=630&fit=cover"
+              class="card-img-top" alt="Kibice na meczu">
+         <div class="card-body">
+           <h5 class="card-title">Kibice</h5>
+           <p class="card-text">Gorąca atmosfera na trybunach.</p>
+           <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#imageModal3">Zobacz więcej</button>
+         </div>
+       </div>
+     </div>
+     <div class="modal fade" id="imageModal3" tabindex="-1" aria-hidden="true">
+       <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title">Kibice</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+           </div>
+           <div class="modal-body">
+             <img src="https://images.pexels.com/photos/31160062/pexels-photo-31160062.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400"
+                  class="img-fluid" alt="Kibice - powiększenie">
+           </div>
+         </div>
+       </div>
+     </div>
+
+   </div>
+ </section>
+ <section id="sklep" class="container py-5">
+   <h2 class="text-center">Sklep FC Barcelona</h2>
+   <div class="row text-center gy-4">
+     <div class="col-md-4">
+       <div class="card">
+         <img src="https://cdn.footballkitarchive.com/2025/07/03/0EGIK3hPjvFl7Da.jpg"
+              class="card-img-top" alt="Koszulka domowa - zastępcze">
+         <div class="card-body">
+           <h5 class="card-title">Koszulka - wzór domowy</h5>
+           <p class="card-text">Oficjalne koszulki kupisz w sklepie klubu</p>
+           <a href="https://store.fcbarcelona.com/products/fc-barcelona-home-amshirt-25-26-ucl" class="btn btn-dark" target="_blank" rel="noopener">Zobacz oficjalny sklep</a>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-md-4">
+       <div class="card">
+         <img src="https://cdn.footballkitarchive.com/2025/07/29/BfdZRElUWyTlOjh.jpg"
+              class="card-img-top" alt="Koszulka wyjazdowa - zastępcze">
+         <div class="card-body">
+           <h5 class="card-title">Koszulka - wzór wyjazdowy</h5>
+           <p class="card-text">Oficjalne koszulki kupisz w sklepie klubu</p>
+           <a href="https://store.fcbarcelona.com/products/mens-away-jersey-25-26-amb-fc-barcelona-x-kobe-bryant-ucl" class="btn btn-dark" target="_blank" rel="noopener">Zobacz oficjalny sklep</a>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-md-4">
+       <div class="card">
+         <img src="https://cdn.footballkitarchive.com/2025/08/19/RIWxgP2smZ9hDaj.jpg"
+              class="card-img-top" alt="Koszulka trzecia - zastępcze">
+         <div class="card-body">
+           <h5 class="card-title">Koszulka - wzór trzeci</h5>
+           <p class="card-text">Oficjalne koszulki kupisz w sklepie klubu</p>
+           <a href="https://store.fcbarcelona.com/products/fc-barcelona-third-amshirt-25-26-ucl" class="btn btn-dark" target="_blank" rel="noopener">Zobacz oficjalny sklep</a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <section id="wyniki" class="bg-light py-5">
+   <div class="container text-center">
+     <h2>Ostatnie wyniki</h2>
+     <p>Aktualne wyniki meczów FC Barcelony:</p>
+     <div class="row">
+       <div class="col-md-4">
+         <div class="card mb-3">
+           <div class="card-body">
+             <h5 class="card-title">FC Barcelona 3 - 0 Athletic Bilbao</h5>
+             <p class="card-text">Zwycięstwo w La Liga.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="card mb-3">
+           <div class="card-body">
+             <h5 class="card-title">FC Barcelona 2 - 1 Real Madrid</h5>
+             <p class="card-text">Emocjonujący El Clásico.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="card mb-3">
+           <div class="card-body">
+             <h5 class="card-title">FC Barcelona 4 - 0 Granada</h5>
+             <p class="card-text">Dominacja na boisku.</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <section id="kontakt" class="footer">
+   <div class="container">
+     <p>&copy; 2025 FC Barcelona - Wszelkie prawa zastrzeżone. </p>
+     <p>Śledź nas na:</p>
+     <a href="https://twitter.com/FCBarcelona" class="btn btn-dark btn-sm m-2" target="_blank" rel="noopener">X</a>
+     <a href="https://www.instagram.com/fcbarcelona/" class="btn btn-dark btn-sm m-2" target="_blank" rel="noopener">Instagram</a>
+   </div>
+ </section>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+ <script>
+   window.addEventListener('load', function() {
+     const overlay = document.getElementById('loadingOverlay');
+     if (overlay) overlay.style.display = 'none';
+   });
+ </script>
+</body>
+</html>
